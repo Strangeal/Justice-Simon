@@ -6,6 +6,12 @@ body{
     padding-left: 40px;
     border-right: 1px solid black;
 }
+@media (max-width: 1025px){
+    .title p{
+        font-size: 10px;
+        padding: 8px;
+    }
+}
 .title p{
     margin: 0px;
     font-size: 30px;
@@ -33,29 +39,32 @@ body{
 
 
 main{
-    margin-left: 20%;
+    margin-left: 22%;
     padding: 20px;
 }
 
 header {
     font-size: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+.main-section p{
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 18px;
 }
 
-.main-section p{
-    margin-left: 20px;
-    font-size: 15px;
-}
 
 li {
     margin-left: 10px;
-    padding: 3px;
 }
 
 code {
-    background-color: grey;
+    background-color: #f7f7f7;
     display: block;
     padding: 20px;
     margin-left: 3%;
     border-radius: 5px;
+    margin-top: 10px;
+    line-height: 2;
+    
 }
