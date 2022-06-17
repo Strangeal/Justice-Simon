@@ -30,3 +30,32 @@ body{
     color: black;
     padding-left: 40px;
 }
+
+
+main{
+    margin-left: 20%;
+    padding: 20px;
+}
+
+header {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.main-section p{
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+li {
+    margin-left: 10px;
+    padding: 3px;
+}
+
+code {
+    background-color: grey;
+    display: block;
+    padding: 20px;
+    margin-left: 3%;
+    border-radius: 5px;
+}
