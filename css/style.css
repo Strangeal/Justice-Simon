@@ -18,9 +18,15 @@ body{
     }
 }
 
+@media(max-width: 800px){
+    .title p{
+        font-size: 15px;
+    }
+}
+
 @media(max-width: 800px) {
-    body{
-        background-color: red;
+    .sidebar{
+        padding: 10px;
     }
 }
 
