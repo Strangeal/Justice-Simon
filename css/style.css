@@ -17,7 +17,7 @@ body{
     font-size: 30px;
     padding: 12px;
 }
-.sidebar{
+.navbar{
     height: 100%;
     width: 20%;
     position: fixed;
@@ -27,7 +27,7 @@ body{
     z-index: 1;
 }
 
-.sidebar a{
+.navbar nav{
     text-decoration: none;
     border-right: 1px solid black;
     border-top: 1px solid black;
